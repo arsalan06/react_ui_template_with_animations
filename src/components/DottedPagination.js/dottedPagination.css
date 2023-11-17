@@ -1,0 +1,23 @@
+/* DottedPagination.css */
+.pagination-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  .pagination-dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    transition: width 0.3s ease;
+  }
+  
+  .pagination-dot.active {
+    width: 40px; /* Adjust the width for the active dot */
+    background-color: #7CDDAE; /* Change the color for the active dot if needed */
+    border-radius: 8px;
+  }
+  

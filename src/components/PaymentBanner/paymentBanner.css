@@ -1,0 +1,22 @@
+.zoom-in-zoom-out {
+    margin: 24px;
+    margin-top: 40px;
+    width: 250px;
+    height: 40px;
+    /* background: green; */
+    animation: zoom-in-zoom-out 3s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    75% {
+      transform: scale(1.7, 1.7);
+      /* border: 1px solid #7CDDAE; */
+      border-radius: 14px;
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
